@@ -1,0 +1,36 @@
+body {
+   background-color: var(--color-banner);
+   // font-family: var(--primary-font-famaly);
+   color: var(--main-color);
+   font-size: var(--main-font-size);
+   line-height: var(--main-line-height);
+ }
+ 
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p {
+   margin-top: 0;
+   margin-bottom: 0;
+ }
+ 
+ ul {
+   padding-left: 0;
+   margin-top: 0;
+   margin-bottom: 0;
+ }
+ 
+ .link {
+   text-decoration: none;
+   // color: var(--main-color-link);
+ }
+ 
+ 
+ 
+ .list {
+   list-style: none;
+ }
+ 

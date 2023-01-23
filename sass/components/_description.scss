@@ -1,0 +1,41 @@
+.description{
+   display: flex;
+   margin-bottom: 40px;
+}
+
+.desc-img-woman{
+   display: block;
+   height: auto;
+   // max-width: 100%;
+}
+
+.desc-woman{
+   padding: 40px;
+   border: 1px solid var(--border-radius);
+   border-top-right-radius: 30px;
+   border-bottom-right-radius: 30px;
+}
+
+// 1200px
+@media screen and (max-width: 1200px) {
+   .description{
+      display: block;
+      margin-bottom: 40px;
+   }
+   .desc-img-woman{
+      border-radius: 30px;
+      margin-left: auto;
+      margin-right: auto;
+   }
+   .desc-woman{
+      border: 1px solid var(--border-radius);
+      border-top-left-radius: 30px;
+      border-bottom-left-radius: 30px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .desc-img-woman{
+      width: 100%;
+   }
+}

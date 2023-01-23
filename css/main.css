@@ -1,0 +1,198 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 1439px) {
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1230px;
+  }
+}
+body {
+  background-color: var(--color-banner);
+  color: var(--main-color);
+  font-size: var(--main-font-size);
+  line-height: var(--main-line-height);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+:root {
+  --color-banner: rgba(171, 168, 218, 0.1);
+  --color-black: #000000;
+  --color-yellow: #FEC901;
+  --main-title: #6B5CDA;
+  --primary-font-famaly: "Roboto", sans-serif;
+  --main-font-size: 16px;
+  --main-line-height: 22.4px;
+  --main-color: #464646;
+  --border-radius: rgba(154, 105, 215, 0.3);
+}
+
+.treaty {
+  padding-top: 120px;
+  padding-bottom: 80px;
+}
+
+@media screen and (max-width: 1200px) {
+  .treaty {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+}
+.treaty-item {
+  list-style: none;
+}
+
+.title-treaty {
+  color: var(--main-title);
+  font-size: 44px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+
+.text-treaty {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 62px;
+  line-height: 28px;
+  max-width: 912px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.description {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.desc-img-woman {
+  display: block;
+  height: auto;
+}
+
+.desc-woman {
+  padding: 40px;
+  border: 1px solid var(--border-radius);
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+  .description {
+    display: block;
+    margin-bottom: 40px;
+  }
+  .desc-img-woman {
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .desc-woman {
+    border: 1px solid var(--border-radius);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .desc-img-woman {
+    width: 100%;
+  }
+}
+.treaty-number {
+  font-size: 72px;
+  line-height: 69px;
+  letter-spacing: 0.02em;
+  margin-right: 10px;
+  color: var(--color-yellow);
+}
+
+.treaty-title {
+  font-size: 24px;
+  line-height: 31px;
+  letter-spacing: 0.01em;
+  color: var(--color-black);
+}
+
+.treaty-content-wrap {
+  display: flex;
+  align-items: end;
+}
+
+.treaty-content {
+  max-width: 575px;
+}
+
+.treaty-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.treaty-item:nth-child(1) {
+  border-right: 1px solid var(--border-radius);
+  border-bottom: 1px solid var(--border-radius);
+}
+
+.treaty-item:nth-child(4) {
+  border-top: 1px solid var(--border-radius);
+}
+
+.treaty-item:nth-child(3) {
+  border-right: 1px solid var(--border-radius);
+}
+
+.treaty-item:nth-child(1), .treaty-item:nth-child(3) {
+  padding-right: 39px;
+  padding-bottom: 40px;
+}
+
+.treaty-item:nth-child(2), .treaty-item:nth-child(4) {
+  padding-left: 39px;
+  padding-bottom: 40px;
+}
+
+@media screen and (max-width: 1439px) {
+  .treaty-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .treaty-item:nth-child(1), .treaty-item:nth-child(3), .treaty-item:nth-child(4) {
+    border: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .treaty-item:nth-child(n) {
+    padding-left: 0;
+  }
+}/*# sourceMappingURL=main.css.map */
