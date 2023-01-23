@@ -20,3 +20,12 @@
    margin-left: auto;
    margin-right: auto;
 }
+
+@media screen and (max-width: 480px) {
+   .title-treaty{
+      font-size: 36px;
+   }
+   .text-treaty{
+      font-size: 18px;
+   }
+}

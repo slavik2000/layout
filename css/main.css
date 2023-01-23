@@ -92,6 +92,14 @@ ul {
   margin-right: auto;
 }
 
+@media screen and (max-width: 480px) {
+  .title-treaty {
+    font-size: 36px;
+  }
+  .text-treaty {
+    font-size: 18px;
+  }
+}
 .description {
   display: flex;
   margin-bottom: 40px;
@@ -194,5 +202,13 @@ ul {
 @media screen and (max-width: 768px) {
   .treaty-item:nth-child(n) {
     padding-left: 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  .treaty-content-wrap {
+    display: block;
+  }
+  .treaty-title {
+    font-size: 21px;
   }
 }/*# sourceMappingURL=main.css.map */
